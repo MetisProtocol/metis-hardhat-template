@@ -33,5 +33,6 @@ jobs:
             ${{ matrix.os }}-yarn-
       - run: yarn
       - run: yarn lint
+      - run: cp .env.example .env
       - run: yarn compile
       - run: yarn test
