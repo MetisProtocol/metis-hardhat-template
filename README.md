@@ -1,19 +1,25 @@
-A contract template for Metis chain
+A hardhat template for Metis chain
 
 ## Test
 
 ```
-yarn hardhat test
+npm test
+```
+
+## Compile
+
+```
+npm run compile
 ```
 
 ## Deploy
 
 ```
-yarn hardhat --network stardust deploy
+npx hardhat --network metisgoerli deploy
 ```
 
 ## Verify
 
 ```
-yarn hardhat --network stardust etherscan-verify
+npx hardhat --network metisgoerli etherscan-verify
 ```
