@@ -31,7 +31,7 @@ npx hardhat --network metisgoerli etherscan-verify
 | Sodlity notion   | Differences                                                                                                                   |
 | ---------------- | ----------------------------------------------------------------------------------------------------------------------------- |
 | block.difficulty | always zero                                                                                                                   |
-| block.coinbase   | alway 0x4200000000000000000000000000000000000011                                                                              |
+| block.coinbase   | always 0x4200000000000000000000000000000000000011                                                                             |
 | block.basefee    | NOT SUPPORTED                                                                                                                 |
 | block.timestamp  | it is not equal with current unix timestamp, and it has maximum 60s delay.(NOTE: blocks are not generated at a constant time) |
 
@@ -48,6 +48,8 @@ ETH is an ERC20 token on Metis, its addresss is `0x42000000000000000000000000000
 2. RPC methods
 
 It's the same with Ethereum.
+
+Check out [our documatation](https://docs.metis.io/dev/get-started/metis-connection-details) for rpc endpoints
 
 3. Gas fee
 
