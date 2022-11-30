@@ -49,7 +49,7 @@ ETH is an ERC20 token on Metis, its addresss is `0x42000000000000000000000000000
 
 It's the same with Ethereum.
 
-Check out [our documatation](https://docs.metis.io/dev/get-started/metis-connection-details) for rpc endpoints
+Check out [our documentation](https://docs.metis.io/dev/get-started/metis-connection-details) for rpc endpoints
 
 3. Gas fee
 
