@@ -39,9 +39,11 @@ NOTE: if you're using solidity 0.8.9 or above, the default evm version is `Londo
 
 2. Native token and wrapped
 
-Metis is a native token but also an ERC20 compatible token on Layer 2.
+Metis is a native token but also an ERC20 compatible token on Layer 2. 
 
-It is a built-in feature, so there is no need to create a wrapped Metis token.
+It is a built-in feature, so there is no need to create a wrapped Metis token, and the source code is [here](https://github.com/MetisProtocol/mvm/blob/develop/packages/contracts/contracts/MVM/MVM_Coinbase.sol). 
+
+Sushiswap team deployed a wMetis, it's the same with WETH9, and the contract address is [0x75cb093E4D61d2A2e65D8e0BBb01DE8d89b53481](https://andromeda-explorer.metis.io/address/0x75cb093E4D61d2A2e65D8e0BBb01DE8d89b53481/contracts)
 
 ETH is an ERC20 token on Metis, its addresss is `0x420000000000000000000000000000000000000A`
 
