@@ -37,6 +37,12 @@ npx hardhat --network metisgoerli etherscan-verify
 
 NOTE: if you're using solidity 0.8.9 or above, the default evm version is `London`, and it's not supported by Metis, you should set `evmVersion` to berlin.
 
+1.1 non-EIP155 txs is disabled for now
+
+you should always use EIP155 to build and sign your transactions.
+
+We will enable non-eip155 txs in next hardfork.
+
 2. Native token and wrapped
 
 Metis is a native token but also an ERC20 compatible token on Layer 2. 
