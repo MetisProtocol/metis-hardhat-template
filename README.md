@@ -33,7 +33,7 @@ npx hardhat --network metisgoerli etherscan-verify
 | block.difficulty | always zero                                                                                                                   |
 | block.coinbase   | always 0x4200000000000000000000000000000000000011                                                                             |
 | block.basefee    | NOT SUPPORTED                                                                                                                 |
-| block.timestamp  | it is not equal with current unix timestamp, and it has maximum 60s delay.(NOTE: blocks are not generated at a constant time) |
+| block.timestamp  | it is not equal with current unix timestamp, and it has maximum 60s delay. |
 
 NOTE: if you're using solidity 0.8.9 or above, the default evm version is `London`, and it's not supported by Metis, you should set `evmVersion` to berlin.
 
@@ -62,3 +62,12 @@ Check out [our documentation](https://docs.metis.io/dev/get-started/metis-connec
 3. Gas fee
 
 It's the same with Ethereum.
+
+4. Block timestamp
+
+As said before. timestamp is not the same with current unix time, because Metis is an layer 2 chain, it depends on Ethereum layer 1 to get the timestamp.
+
+internally, Metis refreshes the timestamp once 1 minute for Andromeda. so you can see that many blocks have the same time on explorer or rpc.
+
+by the way, blocks are not generated at a constant time, a transaction will be confirmed immediately.
+
