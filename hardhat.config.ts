@@ -42,9 +42,8 @@ const config: HardhatUserConfig = {
       accounts: [WALLET_PRIVATE_KEY],
       verify: {
         etherscan: {
-          // just use api-key
-          apiKey: "api-key",
-          apiUrl: "https://andromeda-explorer.metis.io",
+          apiKey: "apiKey is not required, just set a placeholder",
+          apiUrl: "https://api.routescan.io/v2/network/mainnet/evm/1088/etherscan",
         },
       },
     },
