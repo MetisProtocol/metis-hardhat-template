@@ -35,7 +35,7 @@ npx hardhat --network metis-sepolia etherscan-verify
 | block.basefee    | NOT SUPPORTED                                                              |
 | block.timestamp  | it is not equal with current unix timestamp, and it has maximum 60s delay. |
 
-NOTE: if you're using solidity 0.8.9 or above, the default evm version is `london` or ``, and it's not supported by Metis, you should set `evmVersion`to`berlin`.
+NOTE: you should always set `evmVersion` to `berlin`, Metis doesn't support `shanghai` hardfork yet.
 
 non-EIP155 txs is disabled for now
 
