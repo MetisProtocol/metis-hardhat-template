@@ -27,16 +27,6 @@ const config: HardhatUserConfig = {
     },
   },
   networks: {
-    "metis-goerli": {
-      url: "https://goerli.gateway.metisdevops.link",
-      accounts: [WALLET_PRIVATE_KEY],
-      verify: {
-        etherscan: {
-          apiKey: "apiKey is not required, just set a placeholder",
-          apiUrl: "https://goerli.explorer.metisdevops.link",
-        },
-      },
-    },
     "metis-sepolia": {
       url: "https://sepolia.rpc.metisdevops.link",
       accounts: [WALLET_PRIVATE_KEY],
@@ -48,7 +38,7 @@ const config: HardhatUserConfig = {
       },
     },
     andromeda: {
-      url: "https://andromeda.metis.io/?owner=1088",
+      url: "https://andromeda.metis.io",
       accounts: [WALLET_PRIVATE_KEY],
       verify: {
         etherscan: {
