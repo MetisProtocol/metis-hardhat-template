@@ -28,12 +28,12 @@ const config: HardhatUserConfig = {
   },
   networks: {
     "metis-sepolia": {
-      url: "https://sepolia.rpc.metisdevops.link",
+      url: "https://sepolia.metisdevops.link",
       accounts: [WALLET_PRIVATE_KEY],
       verify: {
         etherscan: {
           apiKey: "apiKey is not required, just set a placeholder",
-          apiUrl: "https://sepolia.explorer.metisdevops.link",
+          apiUrl: "https://sepolia-explorer-api.metisdevops.link",
         },
       },
     },
