@@ -32,7 +32,8 @@ const config: HardhatUserConfig = {
       accounts: [WALLET_PRIVATE_KEY],
       verify: {
         etherscan: {
-          apiKey: "apiKey is not required, just set a placeholder",
+          // apiKey is not required, just set a placeholder
+          apiKey: "metis",
           apiUrl: "https://sepolia-explorer-api.metisdevops.link",
         },
       },
@@ -42,9 +43,9 @@ const config: HardhatUserConfig = {
       accounts: [WALLET_PRIVATE_KEY],
       verify: {
         etherscan: {
-          apiKey: "apiKey is not required, just set a placeholder",
-          apiUrl:
-            "https://api.routescan.io/v2/network/mainnet/evm/1088/etherscan",
+          // apiKey is not required, just set a placeholder
+          apiKey: "metis",
+          apiUrl: "https://andromeda-explorer.metis.io",
         },
       },
     },
