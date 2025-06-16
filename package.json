@@ -12,7 +12,7 @@
     "@openzeppelin/contracts": "^5.1.0",
     "dotenv": "^16.4.7",
     "hardhat": "^2.22.19",
-    "hardhat-deploy": "^1.0.1"
+    "hardhat-deploy": "^1.0.3"
   },
   "engines": {
     "node": ">=18.0.0"
